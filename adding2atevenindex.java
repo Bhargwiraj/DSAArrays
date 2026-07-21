@@ -9,14 +9,14 @@ System.out.println("Enter elements in array");
 for(int i=0;i<n;i++){
     array[i]=sc.nextInt();
 }
-System.out.println("Printing the even index by 2");
+System.out.println("Printing the result ");
 for(int i=0;i<n;i++){
-    if(i%2==0){
+    if(i%2!=0){
         int sum = array[i]*2;
-        System.out.println("Even index multiple by 2="+sum);
+        System.out.println("ODD INDEX="+sum);
     }
     else{
-        System.out.println(array[i]);
+        System.out.println("EVEN INDEX="+(array[i]+10));
     }
 }
     }
