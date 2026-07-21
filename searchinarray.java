@@ -7,6 +7,7 @@ public class searchinarray {
         System.out.println("Enter the number that you want to search:");
         int num=sc.nextInt();
         int []array=new int [n];
+        boolean flag=false;
         System.out.println("Enter the number in araays:");
         for(int i=0;i<n;i++){
             array[i]=sc.nextInt();
@@ -15,7 +16,12 @@ public class searchinarray {
         for(int i=0;i<n;i++){
             if(num==array[i]){
                 System.out.println("Match at index:-"+i);
+                flag=true;
+                break;
             }
+        }
+        if(!flag){
+            System.out.println("Not found");
         }
     }
 }
