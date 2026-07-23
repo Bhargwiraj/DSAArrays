@@ -12,6 +12,7 @@ if(array.get(i)+carray==10){
     carray=1;
 }
 else{
+    //whaa hm set kar rhe h array k index pe carray k sth kaa sum
   array.set(i,array.get(i)+carray) ;
   carray=0;
   break;
