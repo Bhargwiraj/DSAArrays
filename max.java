@@ -8,7 +8,7 @@ public static void main(String[] args) {
    
     System.out.println("enter the numbers");
     for(int i=0;i<n;i++){
-        array[i]=sc.nextInt();
+    array[i]=sc.nextInt();
     }
       int max=array[0];
     System.out.println("print max no");
